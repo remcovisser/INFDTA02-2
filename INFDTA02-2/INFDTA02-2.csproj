@@ -8,4 +8,19 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\banner1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="wwwroot\lib\chart.js\.bower.json" />
+    <None Remove="wwwroot\lib\chart.js\.editorconfig" />
+    <None Remove="wwwroot\lib\chart.js\.eslintignore" />
+    <None Remove="wwwroot\lib\chart.js\.eslintrc.yml" />
+    <None Remove="wwwroot\lib\chart.js\.htmllintrc" />
+    <None Remove="wwwroot\lib\chart.js\book.json" />
+    <None Remove="wwwroot\lib\chart.js\bower.json" />
+    <None Remove="wwwroot\lib\chart.js\composer.json" />
+    <None Remove="wwwroot\lib\chart.js\dist\Chart.bundle.js" />
+    <None Remove="wwwroot\lib\chart.js\dist\Chart.bundle.min.js" />
+  </ItemGroup>
 </Project>

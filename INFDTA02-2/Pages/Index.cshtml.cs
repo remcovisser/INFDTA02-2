@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace INFDTA02_2.Pages
 {
-    public class IndexModel : PageModel
+    public class Assignment1Model : PageModel
     {
         public void OnGet()
         {
